@@ -1,12 +1,13 @@
 {
-  "name": "20-0",
+  "name": "17-0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:rosters": "node scripts/generateFullRosters.mjs"
   },
   "dependencies": {
     "next": "16.2.7",
